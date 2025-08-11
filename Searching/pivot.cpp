@@ -39,7 +39,7 @@ int main(){
     // #ifndef ONLINE_JUDGE
     // freopen("input.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
-    // #endifd
+    // #endifd new 
 
     vector<int>nums{7,1,2,3,4,5};
 a
