@@ -22,14 +22,118 @@
 // see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
 // <http://www.gnu.org/licenses/>.
 
-/** @file stdc++.h
+/** @ stdc++.h
  *  This is an implementation file for a precompiled header.
  */
 
 // 17.4.1.2 Headers
 
 // C
+#include <algorithm>
+#include <any>
+#include <array>
+#include <bit>
+#include <bitset>
+#include <cassert>
+#include <ccomplex>
+#include <cctype>
+#include <cerrno>
+#include <cfenv>
+#include <cfloat>
+#include <chrono>
+#include <cinttypes>
+#include <ciso646>
+#include <climits>
+#include <clocale>
+#include <cmath>
+#include <compare>
+#include <concepts>
+#include <complex>
+#include <condition_variable>
+#include <csetjmp>
+#include <csignal>
+#include <cstdarg>
+#include <cstdbool>
+#include <cstddef>
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctgmath>
+#include <ctime>
+#include <cuchar>
+#include <cwchar>
+#include <cwctype>
+#include <deque>
+#include <exception>
+#include <filesystem>
+#include <format>
+#include <forward_list>
+#include <fstream>
+#include <functional>
+#include <future>
+#include <initializer_list>
+#include <iomanip>
+#include <ios>
+#include <iosfwd>
 #include <iostream>
+#include <istream>
+#include <iterator>
+#include <latch>
+#include <limits>
+#include <list>
+#include <locale>
+#include <map>
+#include <memory>
+#include <memory_resource>
+#include <mutex>
+#include <new>
+#include <numbers>
+#include <numeric>
+#include <optional>
+#include <ostream>
+#include <queue>
+#include <random>
+#include <ranges>
+#include <ratio>
+#include <regex>
+#include <scoped_allocator>
+#include <semaphore>
+#include <set>
+#include <shared_mutex>
+#include <source_location>
+#include <span>
+#include <stack>
+#include <stdexcept>
+#include <stop_token>
+#include <string>
+#include <string_view>
+#include <sstream>
+#include <syncstream>
+#include <system_error>
+#include <thread>
+#include <tuple>
+#include <type_traits>
+#include <typeindex>
+#include <typeinfo>
+#include <unordered_map>
+#include <unordered_set>
+#include <utility>
+#include <valarray>
+#include <variant>
+#include <vector>
+#include <version>
+#include <variant>
+#include <atomic>
+#include <barrier>
+#include <latch>
+#include <stacktrace>
+
+#include <iomanip>
+
+#include <iostream>
+#include <iomanip>
+#include <iomanip>
 
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
